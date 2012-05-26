@@ -1,0 +1,118 @@
+			/*------------ @Twitter ------------*/
+			.twitter{
+				border:1px solid #417e9a;
+				border-bottom: 4px solid #305e71;
+				color: #fff;
+				display: block;
+				font-size: 14px;
+				font-weight:bold;
+				margin: 20px auto;
+				padding:10px 40px 10px 70px;
+				position: relative;
+				text-decoration:none;
+				text-shadow: 0px -1px 0px rgba(0,0,0,.8);
+				width:140px;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+
+				-webkit-box-shadow: inset 0px -1px 0px 0px #6eb2d0;
+				-moz-box-shadow: inset 0px -1px 0px 0px #6eb2d0;
+				box-shadow: inset 0px -1px 0px 0px #6eb2d0;
+
+				background-image: -webkit-linear-gradient( top, #7ebbd5, #529fc1);
+				background-image: -moz-linear-gradient( top, #7ebbd5, #529fc1);
+				background-image: -o-linear-gradient( top, #7ebbd5, #529fc1);
+				background-image: -ms-linear-gradient( top, #7ebbd5, #529fc1);
+				background-image: linear-gradient( top, #7ebbd5, #529fc1);
+			}
+				.twitter:hover{
+					border:1px solid #72a1b5;
+					border-bottom:4px solid #305e71;
+					-webkit-box-shadow: inset 0px -1px 0px 0px #6eb2d0;
+					-moz-box-shadow: inset 0px -1px 0px 0px #6eb2d0;
+					box-shadow: inset 0px -1px 0px 0px #6eb2d0;
+					background-image: -webkit-linear-gradient( bottom, #7ebbd5, #529fc1);
+					background-image: -moz-linear-gradient( bottom, #7ebbd5, #529fc1);
+					background-image: -o-linear-gradient( bottom, #7ebbd5, #529fc1);
+					background-image: -ms-linear-gradient( bottom, #7ebbd5, #529fc1);
+					background-image: linear-gradient( bottom, #7ebbd5, #529fc1);
+				}
+
+				.twitter:active{
+					border:1px solid #417e9a;
+					border-bottom:1px solid #305e71;
+					-webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,.2);
+					-moz-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,.2);
+					box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,.2);
+				}
+
+			.twitter span{
+				border-right: 1px #5088a2 double;
+				font-size:16px;
+				left:6px;
+				margin:0;
+				padding: 10px 16px 10px 12px;
+				position: absolute;
+				top:0px;
+
+				-webkit-box-shadow: 1px 0 0 #91c5db;
+				-moz-box-shadow: 1px 0 0 #91c5db;
+				box-shadow: 1px 0 0 #91c5db;
+			}
+
+
+						/*------------ @Dirty button ------------*/
+			.dirty{
+				background-color: transparent;
+				background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.06), rgba(255,255,255,0.06)), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,188,191,.1)), color-stop(50%,rgba(110,119,116,.1)), color-stop(51%,rgba(10,14,10,.1)), color-stop(100%,rgba(10,8,9,.1)));
+				
+				color: #fff;
+				display: block;
+				font-size: 13px;
+				font-weight:bold;
+				margin: 20px auto;
+				padding:10px 40px 10px 70px;
+				position: relative;
+				text-decoration:none;
+				text-shadow: 0px 0px 1px rgba(0,0,0,.8);
+				width:170px;
+				
+				-webkit-border-radius: 3px;
+
+				-webkit-box-shadow: 0 2px 2px 0px rgba(0,0,0,.75),
+					inset 0 0px 1px 0 rgba(255,255,255,.11),
+					inset 0 1px 0 0 rgba(255,255,255,.35);
+			}
+
+				.dirty:hover{
+				background: -webkit-linear-gradient(top, rgba(0,0,0,0.06), rgba(255,255,255,0.06)), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,188,191,.1)), color-stop(50%,rgba(110,119,116,.1)), color-stop(51%,rgba(10,14,10,.1)), color-stop(100%,rgba(10,8,9,.1)));
+					
+
+					text-shadow: 0px 0px 1px rgba(0,0,0,.8);
+
+					box-shadow: 0 0px 3px 1px rgba(0,0,0,.75),
+					inset 0 0px 1px 0 rgba(255,255,255,.11),
+					inset 0 1px 0 0 rgba(255,255,255,.35);
+				}
+				.dirty:active{
+				background: -webkit-linear-gradient(top, rgba(0,0,0,0.06), rgba(255,255,255,0.06)), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,188,191,.1)), color-stop(50%,rgba(110,119,116,.1)), color-stop(51%,rgba(10,14,10,.1)), color-stop(100%,rgba(10,8,9,.1)));
+					
+
+					text-shadow: 0px 0px 1px rgba(0,0,0,.8);
+
+					box-shadow: inset 0 2px 2px 0px rgba(0,0,0,.75),
+					inset 0 0px 1px 0 rgba(255,255,255,.11),
+					inset 0 1px 0 0 rgba(255,255,255,.35);
+				}
+
+			.dirty span{
+				border-right: 1px #424242 solid;
+				font-size:16px;
+				left:6px;
+				margin:0;
+				padding: 3px 16px 3px 12px;
+				position: absolute;
+				top:7px;
+				-webkit-box-shadow: 1px 0 0 #232323;
+			}

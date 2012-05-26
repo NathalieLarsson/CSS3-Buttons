@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="website" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+		<title>Lab of Nathalie</title>
+		<link type="css/text" rel="stylesheet" href="http://madebynatha.com/api/reset.css"/>
+		<link type="css/text" rel="stylesheet" href="style.css"/>
+
+		<style type="text/css">
+			body{
+				font-family:sans-serif;
+				line-height:16px;
+			}
+
+			h1{
+				font-size: 16px;
+				font-weight:bold;
+			}
+
+			#wrapper{
+				width:400px;
+				margin:0 auto;
+			}
+
+			header{
+				padding:10px 0;
+				margin:20px 0;
+
+			}
+
+			article{
+				position: relative;
+				padding:20px 10px 0;
+				height:180px;
+				display: block;
+			}
+				article#twitter{
+					background: #fff;
+				}
+
+				article#dirty{
+					background: #191919;
+					margin:30px 0;
+					color: #efefef;
+				}
+
+				article#babyblue{
+					background:#eaf4f8;
+				}
+
+
+			p.src{
+				margin:10px 0;
+				padding:10px 0;
+				position: absolute;
+				bottom:4px;
+				left:4px;
+			}
+
+			/*------------ @Dirty button ------------*/
+			.babyblue{
+				background-color: #cedbe0;
+				background: -webkit-linear-gradient( bottom, #a9bfc9, #dee8ec);
+				
+				color: #4b5154;
+				display: block;
+				font-size: 13px;
+				font-weight:bold;
+				margin: 20px auto;
+				padding:7px 20px;
+				text-align:center;
+				position: relative;
+				text-decoration:none;
+				text-shadow: 0px 0px 1px rgba(255,255,255,.8);
+				width:60px;
+
+				border:1px solid #a2b5bc;
+
+				border-radius: 4px;
+
+				box-shadow: 0 1px 1px 1px rgba(0,0,0,.1), inset 0 1px 0 0 #ecf2f5, inset 0 0 10px 10px rgba(255,255,255,.5);
+			}
+				.babyblue:hover{
+				background-color: #add5e4;
+				background: -webkit-linear-gradient( top, #92c2d3, #d6ebf2);
+
+				border:1px solid #a2b5bc;
+
+				border-radius: 4px;
+
+				box-shadow: 0 1px 1px 1px rgba(0,0,0,.1), inset 0 1px 0 0 #ecf2f5, inset 0 0 10px 10px rgba(255,255,255,.5);
+			}
+
+		</style>
+	</head>
+
+<body>
+
+<div id="wrapper">
+	<header>
+		<h1>Css3 buttons <span><a href="http://www.madebynatha.com">Made by Natha</a></span></h1>
+		<p>This buttons are only tested in Chrome so far. </p>
+	</header>
+	<section>
+		<div role="main">
+		<article id="twitter">
+			<a href="#" class="button btn-1 twitter"><span>t</span>Sign in with Twitter</a>
+			<p class="src">Source: Andrew Crookston <a href="http://dribbble.com/shots/130735-CSS3-3D-button">Link</a></p>
+		</article>
+
+		<article id="dirty">
+			<a href="#" class="button btn-2 dirty"><span></span>Totally random free button</a>
+			<p class="src">Source: Jonno Riekwel <a href="http://dribbble.com/shots/435776-Dirty-Button">Link</a></p>
+		</article>
+
+		<article id="babyblue">
+			<a href="#" class="button btn-3 babyblue">Download</a>
+			<p class="src">Source: Visual Idiot <a href="http://dribbble.com/shots/427545-Download-Button-Free-PSD-yo-">Link</a></p>
+		</article>
+		</div>
+	</section>
+
+	<footer>
+		
+	</footer>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="noisy.js"></script>
+
+
+
+<script>
+	$(document).ready(function(){
+		$("article#dirty").noisy({opacity : .22});
+
+		$("a.babyblue").noisy({opacity : .05});
+	});
+</script>
+</body>
+</html>
